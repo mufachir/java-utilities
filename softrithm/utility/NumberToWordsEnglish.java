@@ -104,7 +104,12 @@ public class NumberToWordsEnglish {
      * @param args
      */
     public static void main(String[] args) {
-        System.out.println("*** " + NumberToWordsEnglish.convert(0));
+        System.out.println(NumberToWordsBengali.convertToWord("55566666"));
+
+
+
+
+        /*System.out.println("*** " + NumberToWordsEnglish.convert(0));
         System.out.println("*** " + NumberToWordsEnglish.convert(1));
         System.out.println("*** " + NumberToWordsEnglish.convert(16));
         System.out.println("*** " + NumberToWordsEnglish.convert(100));
@@ -122,31 +127,8 @@ public class NumberToWordsEnglish {
         System.out.println("*** " + NumberToWordsEnglish.convert(9001000));
         System.out.println("*** " + NumberToWordsEnglish.convert(123456789));
         System.out.println("*** " + NumberToWordsEnglish.convert(2147483647));
-        System.out.println("*** " + NumberToWordsEnglish.convert(3000000010L));
+        System.out.println("*** " + NumberToWordsEnglish.convert(3000000010L));*/
 
-        /*
-         *** zero
-         *** one
-         *** sixteen
-         *** one hundred
-         *** one hundred eighteen
-         *** two hundred
-         *** two hundred nineteen
-         *** eight hundred
-         *** eight hundred one
-         *** one thousand three hundred sixteen
-         *** one million
-         *** two millions
-         *** three millions two hundred
-         *** seven hundred thousand
-         *** nine millions
-         *** nine millions one thousand
-         *** one hundred twenty three millions four hundred
-         **      fifty six thousand seven hundred eighty nine
-         *** two billion one hundred forty seven millions
-         **      four hundred eighty three thousand six hundred forty seven
-         *** three billion ten
-         **/
     }
 
 }
